@@ -1,0 +1,19 @@
+{
+  "name": "jmrolf-madlib",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "test",
+    "compile-watch": "node ./node_modules/typescript/bin/tsc --watch",
+    "compile": "node ./node_modules/typescript/bin/tsc",
+    "parse": "npm run compile && node ./dist/ETL/parser.js",
+    "go": "npm run compile && node ./dist/index.js"
+  },
+  "author": "JMRolf",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}

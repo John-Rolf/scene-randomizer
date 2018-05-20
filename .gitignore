@@ -1,0 +1,8 @@
+node_modules
+dist
+
+*.txt
+package-lock.json
+
+data/*
+!data/.gitkeep
